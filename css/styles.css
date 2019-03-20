@@ -1,9 +1,13 @@
+.mainheader {
+  font-size: 80px;
+}
 .column {
   width: 375px;
   float: left;
-  background-color: lightblue;
   text-align: center;
+  background-color: #488784;
   padding: 15px;
+  min-height: 580px;
 }
 
 .column2 {
@@ -15,6 +19,7 @@
 
 img {
   width: 350px;
+  border-radius: 50%;
 }
 
 h3 {
@@ -30,13 +35,33 @@ h1 {
 }
 
 .column2 {
-  font-style: italic;
+  font-style: oblique;
 }
 
-p {
-  background-color: green;
+button {
+background-color: #ead654;
+ border: none;
+ color: white;
+ padding: 15px 32px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+ border-radius: 50%;
 }
 
-.column2 p {
-  background-color: orange;
+body {
+  font-family: 'PT Sans', sans-serif;
+}
+
+@media screen and (max-width: 480px) and (min-width: 300px) {
+  body {
+    background-color: grey;
+  }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 700px) {
+  body {
+    background-color: yellow;
+  }
 }
