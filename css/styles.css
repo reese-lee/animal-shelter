@@ -1,0 +1,16 @@
+.column {
+  width: 375px;
+  float: left;
+  background-color: lightblue;
+  text-align: center;
+}
+
+.column2 {
+  width: 375px;
+  float: left;
+  text-align: center;
+}
+
+img {
+  width: 350px;
+}
