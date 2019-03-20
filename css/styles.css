@@ -3,14 +3,40 @@
   float: left;
   background-color: lightblue;
   text-align: center;
+  padding: 15px;
 }
 
 .column2 {
   width: 375px;
   float: left;
   text-align: center;
+  padding: 15px;
 }
 
 img {
   width: 350px;
+}
+
+h3 {
+  color: lightblue;
+}
+
+.column h3 {
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+.column2 {
+  font-style: italic;
+}
+
+p {
+  background-color: green;
+}
+
+.column2 p {
+  background-color: orange;
 }
