@@ -7,7 +7,8 @@
   text-align: center;
   background-color: #488784;
   padding: 15px;
-  min-height: 580px;
+  min-height: 680px;
+  position: relative;
 }
 
 .column2 {
@@ -15,6 +16,8 @@
   float: left;
   text-align: center;
   padding: 15px;
+  position: relative;
+  min-height: 680px;
 }
 
 img {
@@ -48,6 +51,12 @@ background-color: #ead654;
  display: inline-block;
  font-size: 16px;
  border-radius: 50%;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ position: absolute;
+ margin-left: 140px;
+ margin-bottom: 50px;
 }
 
 body {
